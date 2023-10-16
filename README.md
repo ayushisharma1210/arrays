@@ -5,6 +5,9 @@ these codes basically comprise of:
 sum of array by iterating each element of the array and adding it to a variable called sum.
 entering marks using array
 key found or not found at location
+sum of matrices
+formation of matrix
+transpose of a matrix
 
 ##algorithm of the codes
 
@@ -44,4 +47,48 @@ Use a for loop to read 5 marks from the user and store them in the marks array.
 Output the message "the marks are:" to inform the user about the following display.
 Use another for loop to display the entered marks, separated by spaces.
 End the main() function and return 0 to indicate successful program execution.
+
+          algorithm for formation of a matrix
+Declare a 2x3 integer array A.
+Declare integer variables i and j.
+Display the message "array input."
+Use nested loops to input values into the array A:
+Loop i from 0 to 1.
+Loop j from 0 to 2.
+Read an integer and store it in A[i][j].
+Use nested loops to display the elements of the array A:
+Loop i from 0 to 1.
+Loop j from 0 to 2.
+Display the value of A[i][j]
+
+       algorithm for sum of a matrix
+Declare three 3x3 integer arrays: matA, matB, and matC.
+Declare integer variables i and j.
+Display "Enter Elements of First Matrix."
+Use nested loops to input values into matA:
+Loop i from 0 to 2.
+Loop j from 0 to 2.
+Read an integer and store it in matA[i][j].
+Display "Enter Elements of Second Matrix."
+Use nested loops to input values into matB in the same way as with matA.
+Display "sum of matrices."
+Use nested loops to calculate the sum of the two matrices and store the result in matC:
+Loop i from 0 to 2.
+Loop j from 0 to 2.
+Calculate matC[i][j] as the sum of matA[i][j] and matB[i][j].
+Display "Result of Two Given Matrix is:".
+Use nested loops to print the elements of matC:
+Loop i from 0 to 2.
+Loop j from 0 to 2.
+Display the value of matC[i][j] followed by a space.
+Print a newline to move to the next row.
+Return 0 to indicate successful program execution.
+
+       algorithm of transpose of a matrix
+Declare a 3x3 integer array mat and matT for the transpose, and integer variables i and j.
+Input values into mat.
+Display the original matrix mat.
+Calculate the transpose and store it in matT.
+Display the transpose matrix matT.
+Return 0 to indicate successful program execution.
 
