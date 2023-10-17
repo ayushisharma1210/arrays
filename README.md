@@ -1,4 +1,4 @@
-# arrays
+# arrays and matrices
 ##abstract
 arrays are used to store multiple values in a single variable,instead of declaring sepaate values of each variable
 these codes basically comprise of:
