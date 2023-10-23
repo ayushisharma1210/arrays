@@ -92,3 +92,25 @@ Calculate the transpose and store it in matT.
 Display the transpose matrix matT.
 Return 0 to indicate successful program execution.
 
+
+
+    alogorithm for maximum number
+  Variable Declarations:
+Declare integer variables i and n, and an array of floating-point numbers arr with a maximum size of 100.
+User Input:
+Prompt the user to enter the total number of elements (in the range 1 to 100).
+Read the value entered by the user into the variable n.
+Array Input:
+Use a for loop to iterate from 0 to n-1.
+Inside the loop, prompt the user to enter each element one by one.
+Read and store each element in the array arr at index i.
+Finding the Largest Element:
+Initialize the largest element as the first element of the array, i.e., arr[0].
+Use another for loop starting from 1 to n-1 to compare each element in the array with the current largest element.
+If an element is greater than the current largest element (arr[0]), update the current largest element to be that element.
+Output:
+Display the largest element found using cout.
+Program Termination:
+The program returns 0, indicating successful execution.
+
+
